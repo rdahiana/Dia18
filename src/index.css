@@ -1,0 +1,26 @@
+.estado-container {
+  display: inline-block;
+  margin: 10px;
+}
+
+.estado {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.sub-element {
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px; /* Ajusta los márgenes según sea necesario */
+}
+
+.selected {
+  background-color: rgb(98, 98, 247); /* Color de fondo para el elemento seleccionado */
+}
+
+.sub-element.selected {
+  background-color: lightblue; /* Color de fondo para el subelemento seleccionado */
+}
+
+
+
